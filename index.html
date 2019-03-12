@@ -10,8 +10,8 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
 
 </head>
 
@@ -28,97 +28,77 @@
 
     <div class="row">
 
-<!-- Train Schedule -->
-<div class="col-lg-12">
-    
-    <div class="card mb-4">
-        <div class="card-header">Train Schedule</div>
-        <div class="card-body">
-          <table class="table table-sm table-hover" id='schedule-table'>
-            <thead>
-              <tr>
-                <th scope="col">Train Name</th>
-                <th scope="col">Destination</th>
-                <th scope="col">Frequency (min)</th>
-                <th scope="col">Next Arrival</th>
-                <th scope="col">Minutes Away</th>
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-
- 
-  
-  
-  <!-- <div class="card card-default">
-      <div class="card-header">
-        Most Recent Member
-      </div>
-      <div class="card-body" id="recent-member">
-        <h2 id="name-display">Jimmy John</h2>
-        <h4 id="dest-display">Email: jimmy@john.edu</h4>
-        <h4 id="firstTrain-display">Age: 27</h4>
-        <p id="freq-display">I'm signing up, because I want to spread sandwiches to the world.</p>
-      </div>
-    </div>
-  </div> -->
-
-
-
-
-  <div class="col-lg-12">
-    <br>
-    </div>
-      <!-- Sign-Up Card-->
+      <!-- Train Schedule -->
       <div class="col-lg-12">
-        <div class="card card-default">
-          <div class="card-header">
-            Add a train 
-          </div>
+
+        <div class="card mb-4">
+          <div class="card-header">Train Schedule</div>
           <div class="card-body">
-            <!-- Sign-up Form (note the various input "types")-->
-            <form role="form">
-              <div class="form-group row">
-                <label for="name-input">Train Name:</label>
-                <input class="form-control" id="name-input" type="text">
-              </div>
-              <div class="form-group row">
-                <label for="dest-input">Destination:</label>
-                <input class="form-control" id="dest-input" type="text">
-              </div>
-              <div class="form-group row">
-                <label for="firstTrain-input">First Train Time (HH:mm - military time):</label>
-                <input class="form-control" id="firstTrain-input" type="text">
-              </div>
-              <div class="form-group row">
-                <label for="freq-input">Frequency (minutes):</label>
-                <input class="form-control" id="freq-input" type="number">
-              </div>
-              <button class="btn btn-default" id="add-user" type="submit">Submit</button>
-            </form>
+            <table class="table table-sm table-hover" id='schedule-table'>
+              <thead>
+                <tr>
+                  <th scope="col">Train Name</th>
+                  <th scope="col">Destination</th>
+                  <th scope="col">Frequency (min)</th>
+                  <th scope="col">Next Arrival</th>
+                  <th scope="col">Minutes Away</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-
-      
-
     </div>
+    <div class="col-lg-12">
+      <br>
+    </div>
+    <!-- Sign-Up Card-->
+    <div class="col-lg-12">
+      <div class="card card-default">
+        <div class="card-header">
+          Add a train
+        </div>
+        <div class="card-body">
+          <!-- Sign-up Form (note the various input "types")-->
+          <form role="form">
+            <div class="form-group row">
+              <label for="name-input">Train Name:</label>
+              <input class="form-control" id="name-input" type="text">
+            </div>
+            <div class="form-group row">
+              <label for="dest-input">Destination:</label>
+              <input class="form-control" id="dest-input" type="text">
+            </div>
+            <div class="form-group row">
+              <label for="firstTrain-input">First Train Time (HH:mm - military time):</label>
+              <input class="form-control" id="firstTrain-input" type="text">
+            </div>
+            <div class="form-group row">
+              <label for="freq-input">Frequency (minutes):</label>
+              <input class="form-control" id="freq-input" type="number">
+            </div>
+            <button class="btn btn-default" id="add-user" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
 
   </div>
 
-   <!-- jQuery -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
- 
-   <!-- Script -->
-   <!-- <script src="fbhw.js"></script> -->
-   <script type='text/javascript' src='assets/js/app.js'></script>
-  
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+  <!-- Script -->
+  <!-- <script src="fbhw.js"></script> -->
+  <script type='text/javascript' src='assets/js/app.js'></script>
+
 
 
 
